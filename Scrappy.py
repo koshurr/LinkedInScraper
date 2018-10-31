@@ -34,19 +34,3 @@ try:
 finally:
     time.sleep(5)
     driver.close()
-# url = "https://medium.com/"  #
-# url = "https://linkedin.com/"
-# params = {'username': 'michael.breban666@gmail.com', 'password': 'MB@linkedin2018'}
-# r = requests.post("https://linkedin.com/", params)
-# print("cookie is set to: ")
-# print(r.cookies.get_dict())
-# print("---------------")
-# time.sleep(2)
-# print("going to profile page")
-# r = requests.get("https://linkedin.com/",cookies=r.cookies)
-# print("_--------------")
-# print(r.content)
-# print("-----------------")
-# doc = html.fromstring(r.content)
-# print(etree.tostring(doc,pretty_print=True))
-#print(doc.xpath("//a[@class='ds-link ds-link--stylePointer']//text()"))
